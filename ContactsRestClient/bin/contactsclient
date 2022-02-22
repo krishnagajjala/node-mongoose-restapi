@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+// require('../')()
+const index = require('../index')
+index()

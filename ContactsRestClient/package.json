@@ -1,0 +1,19 @@
+{
+  "name": "contactsrestclient",
+  "version": "1.0.0",
+  "description": "Rest Client to interact with MyContacts API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/contactsclient",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "contactsclient": "bin/contactsclient"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "minimist": "^1.2.5"
+  }
+}
